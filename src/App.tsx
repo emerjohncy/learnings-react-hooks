@@ -1,5 +1,6 @@
 import './App.css'
 import UseEffect from './useEffect/UseEffect'
+import UseMemo from './useMemo/UseMemo'
 import UseState from './useState/UseState'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <UseState />
       <UseEffect />
+      <UseMemo />
     </>
   )
 }
